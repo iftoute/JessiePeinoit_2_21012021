@@ -131,7 +131,11 @@ button i {
 
 /*---main/section-hebergement/hebergement1-------------------------------------*/
 
-
+.hebergement1 {
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin-right: 50px;
+}
 
 .hebergement1 a {
     text-decoration: none;
@@ -141,6 +145,16 @@ button i {
 
 .hebergement1 a:hover {
     background-color: #DEEBFF;
+}
+
+.hebergement1 h1 {
+    width: 100%;
+    margin: 40px 0 15px 50px;
+}
+
+.hebergement1 h3 {
+    width: 100%;
+    margin: 0 0 40px 50px;
 }
 
 .container {
@@ -154,27 +168,14 @@ button i {
     height: 130px;
 }
 
-.hebergement1 {
+.cartehebergement {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding: 0px 40px 40px 40px;
+    padding: 20px 40px 40px 40px;
     align-content: center;
-    background-color: #f2f2f2;
-    border-radius: 25px;
-    margin-right: 50px;
-}
-
-.hebergement1 h1 {
-    width: 100%;
-    margin: 50px 0 0 20px;
-}
-
-.hebergement1 h3 {
-    width: 100%;
-    margin: 0 0 0 20px;
 }
 
 .hebergement1 .carte {
@@ -215,11 +216,11 @@ button i {
 /*---main/section-hebergement/aside-------------------------------------*/
 
 
-.aside {
+.hebergementpopulaire {
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-color: #f2f2f2;
+    border-radius: 25px;
 }
 
 .title {
@@ -227,31 +228,46 @@ button i {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    padding: 30px 30px 20px 30px;
 }
 
+.title h2 {
+    margin: 0;
+}
+
+.title i {
+    font-size: 1.2rem;
+}
+
+.populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
 
 .populaires a {
     text-decoration: none;
     color: #000;
-  
-}
+    justify-content: space-between;
+    padding: 15px 40px;
 
-div.hebergement1 h1{
-    margin-bottom: 5px;
 }
-
+.populaires a img {
+    height: 100%;
+}
 
 .cartepop {
     display: flex;
     flex-direction: row;
     border-radius: 25px;
     box-shadow: 0 0 10px 0 #525151;
-    margin-bottom: 30px;
-
- 
+    height: 180px;
+    padding: 5px;
 }
 
-div.imghotel {
+.imghotel {
     width: 50%;
 }
 
@@ -259,18 +275,25 @@ div.imghotel {
    overflow: hidden;
    border-top-left-radius: 25px;
    border-bottom-left-radius: 25px;
-
-
-
-
-
-
-
-
-
-
-
 }
+
+  
+  
+   
+.descriptifpop {
+    margin: 5px 0 5px 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
