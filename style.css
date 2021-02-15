@@ -46,6 +46,7 @@ nav a:hover {
 
 .recherche {
     display: flex;
+    align-items: center;
 }
 
 .recherche i {
@@ -53,12 +54,14 @@ nav a:hover {
     font-size: 1.2rem;
     border-radius: 30% 0 0 30%;
     padding: 20px;
+    height: 3.3em;
 }
 
 .recherche input {
     border: solid 1px #f2f2f2;
     padding: 0 15px 0 15px;
     font-size: 1.2rem;
+    height: 3.3em;
 }
 
 .recherche button {
@@ -69,6 +72,7 @@ nav a:hover {
     padding: 10px 30px 10px 30px;
     margin: 10px 0 10px 0;
     border: none;
+    height: 3.3em;
 }
 
 .filtres {
@@ -277,12 +281,19 @@ button i {
    border-bottom-left-radius: 25px;
 }
 
-  
-  
-   
 .descriptifpop {
     margin: 5px 0 5px 10px;
     text-decoration: none;
+}
+
+
+
+.starpop {
+    color: #0065FC;
+}
+
+.starpop span {
+    color: lightgray;
 }
 
 
@@ -295,8 +306,7 @@ button i {
 
 
 
-
-
+/*-----Activités-----------*/
 
 
 
