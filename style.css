@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+/*---header-------------------------------------*/
+
 header, section {
     margin: 15px 70px 70px 70px;
 } 
@@ -34,15 +36,9 @@ nav a:hover {
     border-top: solid 4px #0065FC;
 }
 
-.hebergement1 a {
-    text-decoration: none;
-    color: black;
-    border-radius: 25px;
-}
 
-.hebergement1 a:hover {
-    background-color: #DEEBFF;
-}
+/*---main/section-trouver-------------------------------------*/
+
 
 .trouver {
     margin: 30px 70px;
@@ -63,7 +59,6 @@ nav a:hover {
     border: solid 1px #f2f2f2;
     padding: 0 15px 0 15px;
     font-size: 1.2rem;
-
 }
 
 .recherche button {
@@ -75,7 +70,6 @@ nav a:hover {
     margin: 10px 0 10px 0;
     border: none;
 }
-
 
 .filtres {
     display: flex;
@@ -104,7 +98,6 @@ nav a:hover {
     height: 50px;
 }
 
-
 button i {
     background-color: #DEEBFF;
     padding: 15px;
@@ -116,12 +109,10 @@ button i {
 
 }
 
-
 .info {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .info i {
@@ -138,10 +129,23 @@ button i {
 }
 
 
+/*---main/section-hebergement/hebergement1-------------------------------------*/
+
+
+
+.hebergement1 a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}
+
+.hebergement1 a:hover {
+    background-color: #DEEBFF;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .container img {
@@ -149,8 +153,6 @@ button i {
     object-fit: cover;
     height: 130px;
 }
-
-
 
 .hebergement1 {
     display: flex;
@@ -163,13 +165,11 @@ button i {
     background-color: #f2f2f2;
     border-radius: 25px;
     margin-right: 50px;
-
 }
 
 .hebergement1 h1 {
     width: 100%;
     margin: 50px 0 0 20px;
-
 }
 
 .hebergement1 h3 {
@@ -183,11 +183,9 @@ button i {
     padding: 5px;
 }
 
-
  .hebergement1 img {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-
  }
 
  .descriptifcarte h4 {
@@ -200,7 +198,6 @@ button i {
     text-decoration: none;
 }
 
-
  .star {
     margin: 0 0 10px 10px;
     color: #0065FC;
@@ -210,19 +207,12 @@ button i {
     color: lightgray;
 }
 
-
-
 .carte  {
     margin: 0;
     padding: 5px 0 0 0; 
 }
 
-
-
-
-
-
-
+/*---main/section-hebergement/aside-------------------------------------*/
 
 
 .aside {
@@ -232,16 +222,24 @@ button i {
     background-color: #f2f2f2;
 }
 
-div.hebergement1 h1{
-    margin-bottom: 5px;
-}
-
-div.title {
+.title {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
+
+
+.populaires a {
+    text-decoration: none;
+    color: #000;
+  
+}
+
+div.hebergement1 h1{
+    margin-bottom: 5px;
+}
+
 
 .cartepop {
     display: flex;
