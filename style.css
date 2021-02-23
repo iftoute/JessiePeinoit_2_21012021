@@ -14,6 +14,7 @@ header, section {
 
 a {
     text-decoration: none;
+    color: black;
 }
 /*---header-------------------------------------*/
 header {
@@ -245,34 +246,21 @@ button i {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---main/section-hebergement/hebergement1-------------------------------------*/
+.container {
+    display: flex;
+}
 
 .hebergement1 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     background-color: #f2f2f2;
     border-radius: 25px;
-    margin-right: 50px;
+    width: 65%;
+    margin-right: 30px;
 }
 
 .hebergement1 a {
-    text-decoration: none;
-    color: black;
     border-radius: 25px;
 }
 
@@ -290,10 +278,6 @@ button i {
     margin: 0 0 40px 50px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
 
 .container img {
     width: 260px;
@@ -344,6 +328,56 @@ button i {
     margin: 0;
     padding: 5px 0 0 0; 
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .hebergementpopulaire {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .title {
+        padding: 30px 50px ;
+    }
+    
+    .populaire a {
+        width: 100%;
+    }
+    
+    .hebergement1 {
+        width: 100%;
+        background-color: white;
+        margin: 0;
+    }
+    
+    .cartehebergement a {
+        width: 100%;
+    }
+    
+    .cartehebergement a img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---main/section-hebergement/aside-------------------------------------*/
 
@@ -522,37 +556,6 @@ footer p {
 
     
 
-    .container {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .hebergementpopulaire {
-        width: 100%;
-        margin: 0;
-        border-radius: 0;
-    }
-
-    .title {
-        padding: 30px 50px ;
-    }
-
-    .populaire a {
-        width: 100%;
-    }
-
-    .hebergement1 {
-        width: 100%;
-        background-color: white;
-    }
-
-    .cartehebergement a {
-        width: 100%;
-    }
-
-    .cartehebergement a img {
-        width: 100%;
-    }
 
     .activites1 {
        flex-direction: column;
