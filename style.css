@@ -20,6 +20,7 @@ a {
 img {
     object-fit: cover;
 }
+
 /*---header-------------------------------------*/
 header {
     display: flex;
@@ -54,6 +55,7 @@ nav a:hover {
     color: #0065FC;
     border-top: solid 4px #0065FC;
 }
+
 /*---------@media/header----------------*/
 @media screen and (min-width: 320px) and (max-width: 600px) {
     header {
@@ -235,7 +237,7 @@ button i {
     }
 
     section.trouver p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .search span {
@@ -257,7 +259,7 @@ button i {
         border-radius: 15px 15px 15px 15px;
         color: white;
         font-size: 1.2rem;
-        padding: 10px 10px 10px 10px;
+        padding: 5px;
         margin: -10px;
     }
 
@@ -274,6 +276,10 @@ button i {
 
     button.famille {
         margin-left: 10px;
+    }
+
+    .info p {
+        margin: 0;
     }
 }
 
@@ -347,8 +353,39 @@ div.carte img {
     margin: 0 0 10px 40px;
 }
 
-/*---main/section-hebergement/aside-------------------------------------*/
+/*-------@media/hebergement1---------------------------*/
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    #hebergement {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        flex-direction: column-reverse;
+    }
 
+    .hebergement1 {
+        width: 100%;
+        background-color: white;
+    }
+
+    .hebergement1 a {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    #hebergement {
+        flex-direction: column-reverse;
+    }
+
+    .hebergement1 {
+        width: 100%;
+    }
+
+    .hebergement1 a {
+        width: 40%;
+    }
+}
+
+/*---main/section-hebergement/aside-------------------------------------*/
 .hebergementpopulaire {
     display: flex;
     flex-direction: column;
@@ -404,9 +441,6 @@ div.imghotel img {
     color: lightgrey;
 }
 
-.descriptifpop {
-}
-
 div.descriptifpop h4 {
     font-size: 14px;
     margin: 0 10px 5px 10px;
@@ -417,14 +451,22 @@ div.descriptifpop p {
     margin: 5px 0 20px 10px;
 }
 
+/*-------@media/hebergement1---------------------------*/
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .hebergementpopulaire {
+        width: 100%;
+        border-radius: 0;
+    }
+}
 
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .hebergementpopulaire {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 
-
-
-
-
-/*-----Activités-----------*/
-
+/*-----Activités---------------------------------------*/
 .activites1  {
     display: flex;
     flex-direction: row;
