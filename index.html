@@ -32,7 +32,7 @@
                     <div class="recherche">
                         <i class="fas fa-map-marker-alt"></i>
                         <input type="text" placeholder="Marseille, France">
-                        <button type="submit">Rechercher<i class="fas fa-search"></i></button>
+                        <button class="search" type="submit"><span>Rechercher</span><i class="fas fa-search"></i></button>
                     </div>
                     <div class="filtres">
                         <h4>Filtres</h4>
@@ -50,8 +50,7 @@
             <section class="container" id="hebergement">
                      <!---hebergement1---------------------------------------->
                     <div class="hebergement1">
-                        <h1>Hébergement à Marseille</h1>
-                        <div class="cartehebergement">
+                        <h2>Hébergement à Marseille</h2>
                             <a href="#">
                                 <div class="carte">
                                     <img src="img/hebergement/cannebiere.jpg" alt="auberge de la cannebiere">
@@ -148,15 +147,18 @@
                                     </div>
                                 </div>
                             </a>
+                        <div class="afficher">
+                            <h3>Afficher plus</h3>
                         </div>
-                        <h3>Afficher plus</h3>
                     </div>
                     <!---aside------------------------------------------------>
                     <aside class="hebergementpopulaire">
+                        <!--title---------------------------->
                         <div class="title">
                             <h2>Les plus populaires</h2>
                             <i class="fas fa-chart-line"></i>
                         </div>
+                        <!--populaires-------------------------------------------------------------->
                         <div class="populaires">
                             <a href="#">
                             <div class="cartepop">
@@ -166,11 +168,12 @@
                                     <div class="descriptifpop">
                                         <h4>Hôtel Le soleil du matin</h4>
                                         <p>Nuit à partir de <strong>128€</strong></p>
-                                        <div class="starpop">
+                                        <div class="star">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
-                                            <span><i class="fas fa-star"></i></span>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
                                         </div>
                                     </div>
                             </div>
@@ -183,7 +186,7 @@
                                     <div class="descriptifpop">
                                         <h4>Au coeur de l'eau<br>Chambres d'hôtes</h4>
                                         <p>Nuit à partir de <strong>71€</strong></p>
-                                        <div class="starpop">
+                                        <div class="star">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -201,7 +204,7 @@
                                     <div class="descriptifpop">
                                         <h4>Hôtel Tout bleu et Blanc</h4>
                                         <p>Nuit à partir de <strong>68€</strong></p>
-                                        <div class="starpop">
+                                        <div class="star">
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
                                             <i class="fas fa-star"></i>
@@ -214,6 +217,26 @@
                         </a>
                     </aside>
             </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <!---section activites1------------------------------------------->
             <section class="activites1" id="activites1">
                     <h1>Activités à Marseille</h1>
