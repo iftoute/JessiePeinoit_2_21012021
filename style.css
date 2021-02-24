@@ -179,17 +179,16 @@ nav a:hover {
 
 .filtres button {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     border: solid 4px #F2F2F2;
     background-color: #fff;
     border-radius: 40px;
     margin-left: 20px;
     padding-right: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     height: 50px;
-    margin-top: 20px;
 }
 
 i.fas.fa-search {
@@ -260,24 +259,24 @@ button i {
         font-size: 1.2rem;
         padding: 10px 10px 10px 10px;
         margin: -10px;
-    
     }
 
     .filtres h4 {
         width: 100%;
-        margin: 0px 0;
+        margin: 0 0 20px 0;
     }
 
     .filtres button {
         margin-left: 0;
-        font-size: 18px;
+        margin-bottom: 20px;
+        font-size: 16px;
     }
 
     button.famille {
-        margin-left: 15px;
+        margin-left: 10px;
     }
-
 }
+
 /*---main/section-hebergement/hebergement1-------------------------------------*/
 .container {
     display: flex;
@@ -409,7 +408,7 @@ div.imghotel img {
 }
 
 div.descriptifpop h4 {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0 10px 5px 10px;
 }
 
@@ -417,6 +416,12 @@ div.descriptifpop p {
     font-size: 13px;
     margin: 5px 0 20px 10px;
 }
+
+
+
+
+
+
 
 /*-----Activités-----------*/
 
