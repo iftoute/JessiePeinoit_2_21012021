@@ -48,7 +48,8 @@ nav a:hover {
     font-size: 1.3rem;
     color: #0065FC;
     font-weight: 600;
-    padding: 25px 0px;
+    padding: 25px 20px 25px 20px;
+    align-items: center;
 }
 
 .inscrire a:hover {
@@ -132,7 +133,7 @@ nav a:hover {
 
 /*---main/section-trouver-------------------------------------*/
 .trouver {
-    margin: 30px 70px;
+    margin: 30px 30px;
 }
 
 .recherche {
@@ -335,6 +336,10 @@ div.star i {
     box-shadow: 0 0 10px 0 #525151;
 }
 
+.hebergement1 a:hover {
+    background-color: #DEEBFF;
+}
+
 div.carte {
     display: flex;
     flex-wrap: wrap;
@@ -393,6 +398,10 @@ div.carte img {
     width: 34%;
     background-color: #F2F2F2;
     border-radius: 22px;
+}
+
+.cartepop:hover {
+    background-color: #DEEBFF;
 }
 
 .title {
@@ -471,11 +480,15 @@ div.descriptifpop p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 
-.activites1 h1 {
+.activites1 h2 {
     width: 100%;
+    margin: 30px 0 0 30px;
 }
 
 .site1 h4 {
@@ -492,15 +505,19 @@ div.descriptifpop p {
     border-radius: 25px;
     box-shadow: 0 0 10px 0 grey;
     height: 470px;
+    width: 22%;
 }
-
 
 .site1 img {
     object-fit: cover;
-    width: 300px;
+    width: 100%;
     height: 420px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+}
+
+.site2 {
+    width: 22%;
 }
 
 .site2 div{
@@ -511,7 +528,7 @@ div.descriptifpop p {
 
 .site2 img {
     object-fit: cover;
-    width: 300px;
+    width: 100%;
     height: 170px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -519,6 +536,32 @@ div.descriptifpop p {
 
 .haut {
     margin-bottom: 30px;
+}
+
+.site1:hover, .haut:hover, .bas:hover {
+    box-shadow: 0 0 20px 0 grey;
+}
+
+/*--------------@MEDIA/ACTIVITE------------------------------------*/
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+    .site1 h4, .site2 h4 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .site1, .site2 {
+        width: 90%;
+    }
+
+    .site1 {
+        height: 220px;
+    }
+
+    .site1 img {
+        height: 170px;
+    }
+
 }
 
 /*----------------FOOTER-----------------------------------------*/
