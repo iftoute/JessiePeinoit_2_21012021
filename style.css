@@ -87,6 +87,9 @@ nav a:hover {
 
     nav a:hover {
         border-top: none;
+    }
+
+    .nav-hebergement:hover, .nav-activite:hover {
         border-bottom: solid 3px #0065FC;
     }
 
@@ -102,6 +105,7 @@ nav a:hover {
         grid-row: 2;
         padding-top: 15px;
         padding-bottom: 25px;
+        border-bottom: solid 3px #f2f2f2;
     }
 
     .nav-activite {
@@ -109,6 +113,7 @@ nav a:hover {
         grid-row: 2;
         padding-top: 15px;
         padding-bottom: 25px;
+        border-bottom: solid 3px #f2f2f2;
     }
 
     .inscrire {
