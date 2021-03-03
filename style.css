@@ -259,6 +259,7 @@ button i {
 
     .recherche input {
         padding-right: 0;
+        max-width: 230px;
     }
     
     button.search {
